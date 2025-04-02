@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+style>
+        .square-img {
+            width: 200px;  /* Set desired square size */
+            height: 200px; /* Set the same height as width */
+            object-fit: cover; /* Ensures content fills the box */
+            border: 2px solid black;
+        }
+    </style>
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #343a49;
+}
+
+.navbar {
+    background-color: #F5CFFF !important;
+}
+
+.navbar a {
+    color: white !important;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 30px;
+}
+
+img {
+    width: 200px;  /* Set desired square size */
+    height: 200px; /* Ensures equal width & height */
+    object-fit: cover; /* Maintains aspect ratio while filling the square */
+    border-radius: 5px; /* Optional: Rounds the corners slightly */
+    display: block;
+}
+
+
+/* General styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+/* Each content section */
+.content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Image Styling */
+.content img {
+    width: 150px;  /* Adjust size as needed */
+    height: 150px; /* Keep it square */
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+/* Text Box */
+.text-box {
+    flex: 1;
+}
+
+/* Title Styling */
+.text-box h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+/* Description Styling */
+.text-box p {
+    font-size: 16px;
+    color: #555;
+}
+
+
+/*Make photo bigger*/
+
+img {
+  width: 400px,
+  height: 300px
+}
+
+
+
+#dundrum {
+  width: 100%;
+  height: auto;
+}
+
+.footer {width: 100%}
+
+
+
+
+
+
