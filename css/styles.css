@@ -125,8 +125,45 @@ img {
 
 .footer {width: 100%}
 
+p{font-size: 16px}
 
+#vico {
+	width:800px;
+	height:auto;
+	text-align: center;
+	position: relative;
+	
+}
 
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-top: 1em;
+  margin-bottom: 1 em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px;
+}
 
+  <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .video-container {
+            width: 100%;
+            overflow: hidden;
+            position: relative;
+        }
+        video {
+            width: 100%;
+            height: auto;
+            display: block;
+			play
 
-
+			.info-text {
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+				font-size: 18px; }
